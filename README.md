@@ -1,5 +1,7 @@
 # 🕹️ The Battle for Zhion
 
+![Banner de The Battle for Zhion](docs/images/banner_zhion.png)
+
 **The Battle for Zhion** es un videojuego multijugador **First-Person Shooter (FPS)** desarrollado por [Inside Dark Studio](https://insidedarkstudio.com), pensado para ejecutarse directamente desde navegador con integración Web3 mediante la blockchain de Internet Computer (ICP).
 
 Este repositorio contiene el código fuente, recursos y documentación técnica para desarrolladores y colaboradores del estudio.
@@ -16,6 +18,11 @@ Este repositorio contiene el código fuente, recursos y documentación técnica 
   - Progresión de jugador
   - Integración completa con canisters NFT
   - Versiones multilingüe
+
+## 🎮 Gameplay Preview
+
+![Partida en curso](docs/images/screenshot_match.png)
+![Interfaz de usuario](docs/images/hud_demo.png)
 
 ---
 
