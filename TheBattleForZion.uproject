@@ -370,6 +370,11 @@
 		{
 			"Name": "Reflex",
 			"Enabled": true
+		},
+		{
+			"Name": "LyraUnitSelection",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/cff80acc-8682-47ae-beab-09e433496648"
 		}
 	],
 	"EpicSampleNameHash": "451731683"

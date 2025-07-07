@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.7",
+	"FriendlyName": "Lyra Unit Selection",
+	"Description": "Plugin that adds modular character selection to Lyra.",
+	"Category": "Game Features",
+	"CreatedBy": "Jon Van Dam",
+	"CreatedByURL": "https://jonvandam.com/",
+	"DocsURL": "https://jonvandam.com/lyra-unit-selection/lyra-unit-selection/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/cff80acc-8682-47ae-beab-09e433496648",
+	"SupportURL": "https://discord.com/invite/jZ2s8a7cg4",
+	"EngineVersion": "5.6.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"ExplicitlyLoaded": true,
+	"Modules": [
+		{
+			"Name": "LyraUnitSelectionRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		}
+	]
+}
