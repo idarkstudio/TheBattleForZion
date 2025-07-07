@@ -22,7 +22,6 @@ Este repositorio contiene el código fuente, recursos y documentación técnica 
 ## 🎮 Gameplay Preview
 
 ![Partida en curso](docs/images/screenshot_match.png)
-![Interfaz de usuario](docs/images/hud_demo.png)
 
 ---
 
@@ -62,6 +61,7 @@ Este repositorio contiene el código fuente, recursos y documentación técnica 
 4. Ejecutar en el editor (Play in Editor) o empaquetar desde:
 File > Package Project
 
+---
 
 🧪 Testing
 Pruebas internas: modo multiplayer local (PIE)
@@ -70,13 +70,21 @@ Testing Web3: entorno dfx local con mock de identidad
 
 Integración con HUD y login se encuentra en /Frontend/Widgets
 
+---
 
 👥 Equipo
+
 🎯 Mariano Stoll – Director General
+
 🧠 Francisco Rappazzini – CTO (Chief Technology Officer)
+
 🧩 Francisca Nicole Morales Calquín – COO (Chief Operating Officer)
+
 🎮 Lautaro Padró – Game Designer
+
 🎨 Lucía Mamut – Game Art Designer
+
+---
 
 🧭 Roadmap (Q3 2025)
  Optimización del Netcode para 60+ jugadores
@@ -88,6 +96,8 @@ Integración con HUD y login se encuentra en /Frontend/Widgets
  Localización al español, inglés y portugués
 
  Animaciones dinámicas vía blueprints
+
+ ---
 
 📄 Licencia
 Este proyecto es propiedad de Inside Dark Studio.
