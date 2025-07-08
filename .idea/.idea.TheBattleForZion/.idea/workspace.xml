@@ -18,8 +18,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cdb8fc9-121f-4393-bba3-c7e6059bd1b8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheBattleForZion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheBattleForZion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheBattleForZion.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/TheBattleForZion.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Foundation/Dialogs/W_ControllerDisconnected.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Foundation/Dialogs/W_ControllerDisconnected.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Hud/W_LyraGameMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Hud/W_LyraGameMenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Hud/W_OpenMenuTouchButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Hud/W_OpenMenuTouchButton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_ExperienceList.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_ExperienceList.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_ExperienceSelectionScreen.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_ExperienceSelectionScreen.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_ExperienceTile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_ExperienceTile.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_HostSessionScreen.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_HostSessionScreen.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_LyraSessionButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_LyraSessionButton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_SessionBrowserScreen.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Experiences/W_SessionBrowserScreen.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/W_LyraArrowButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/W_LyraArrowButton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/W_LyraExperienceTileButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/W_LyraExperienceTileButton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/W_LyraFrontEnd.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/W_LyraFrontEnd.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/W_LyraMenuButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/W_LyraMenuButton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/W_LyraMenuButton_Modal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/W_LyraMenuButton_Modal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/W_LyraTileButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/W_LyraTileButton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/W_TouchCloseButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/W_TouchCloseButton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/W_UserLoginButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/W_UserLoginButton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Settings/Editors/W_SettingsListEntry_Action.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Settings/Editors/W_SettingsListEntry_Action.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Settings/Editors/W_SettingsListEntry_Discrete.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Settings/Editors/W_SettingsListEntry_Discrete.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Settings/Editors/W_SettingsListEntry_KBMBinding.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Settings/Editors/W_SettingsListEntry_KBMBinding.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Settings/Editors/W_SettingsListEntry_SubCollection.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Settings/Editors/W_SettingsListEntry_SubCollection.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/LyraUnitb2061c28e783V2/Content/LyraUnitSelection/Selection/B_UnitSelectionComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraUnitb2061c28e783V2/Content/LyraUnitSelection/Selection/B_UnitSelectionComponent.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +51,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://C:/Program Files/Epic Games/UE_5.6/Engine/Source/Programs/UnrealBuildTool/UnrealBuildTool.csproj" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/UMG/Public/Components/Image.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -43,22 +64,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;C/C++ Project.LyraGameEOS.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "C/C++ Project.LyraGameEOS.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "UI-Development",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="C/C++ Project.LyraGameEOS">
     <configuration name="LyraGameEOS" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -212,6 +233,7 @@
       <workItem from="1751635625466" duration="2941000" />
       <workItem from="1751892980025" duration="412000" />
       <workItem from="1751899316985" duration="104000" />
+      <workItem from="1751978129883" duration="596000" />
     </task>
     <servers />
   </component>
