@@ -17,7 +17,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cdb8fc9-121f-4393-bba3-c7e6059bd1b8" name="Changes" comment="" />
+    <list default="true" id="7cdb8fc9-121f-4393-bba3-c7e6059bd1b8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheBattleForZion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheBattleForZion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Art/MI_UI_MenuButton_SoftShadow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Art/MI_UI_MenuButton_SoftShadow.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Art/MI_UI_TabButton_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Art/MI_UI_TabButton_Base.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/W_LyraFrontEnd.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/W_LyraFrontEnd.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Settings/W_LyraSettingScreen.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Settings/W_LyraSettingScreen.uasset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,6 +219,8 @@
       <workItem from="1751978129883" duration="596000" />
       <workItem from="1752094931138" duration="1411000" />
       <workItem from="1752154142629" duration="2131000" />
+      <workItem from="1753204972193" duration="602000" />
+      <workItem from="1753208795836" duration="947000" />
     </task>
     <servers />
   </component>
