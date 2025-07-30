@@ -18,11 +18,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cdb8fc9-121f-4393-bba3-c7e6059bd1b8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Profile/Overview/W_ModeStatEntry.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Profile/Overview/W_ModeStatEntry.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Profile/W_ProfileScreen.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Profile/W_ProfileScreen.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Profile/W_Profile_Overview.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Profile/W_Profile_Overview.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/Profile/W_Profile_Stadistics.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/Profile/W_Profile_Stadistics.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/Menu/W_UsernamePanel.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Menu/W_UsernamePanel.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/InputData_Hero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/InputData_Hero.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/DT_UniversalActions.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/DT_UniversalActions.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Game/AbilitySet_ShooterHero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Game/AbilitySet_ShooterHero.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Input/Abilities/GA_Grenade.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Input/Abilities/GA_Grenade.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Input/Actions/InputData_ShooterGame_AddOns.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Input/Actions/InputData_ShooterGame_AddOns.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Input/Mappings/IMC_ShooterGame.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Input/Mappings/IMC_ShooterGame.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,6 +224,7 @@
       <workItem from="1753204972193" duration="602000" />
       <workItem from="1753208795836" duration="4065000" />
       <workItem from="1753740692115" duration="4000" />
+      <workItem from="1753881309891" duration="599000" />
     </task>
     <servers />
   </component>
