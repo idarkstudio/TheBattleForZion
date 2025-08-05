@@ -17,7 +17,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cdb8fc9-121f-4393-bba3-c7e6059bd1b8" name="Changes" comment="" />
+    <list default="true" id="7cdb8fc9-121f-4393-bba3-c7e6059bd1b8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Cameras/CM_ThirdPerson.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Cameras/CM_ThirdPerson.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Cameras/ThirdPersonOffsetCurve.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Cameras/ThirdPersonOffsetCurve.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Game/B_Hero_ShooterMannequin.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Game/B_Hero_ShooterMannequin.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Game/HeroData_ShooterGame.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GameFeatures/ShooterCore/Content/Game/HeroData_ShooterGame.uasset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,6 +220,9 @@
       <workItem from="1752154142629" duration="2131000" />
       <workItem from="1753204972193" duration="602000" />
       <workItem from="1753208795836" duration="4065000" />
+      <workItem from="1753740692115" duration="4000" />
+      <workItem from="1753881309891" duration="599000" />
+      <workItem from="1753964281959" duration="656000" />
     </task>
     <servers />
   </component>

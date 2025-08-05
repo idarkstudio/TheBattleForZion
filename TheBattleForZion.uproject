@@ -375,6 +375,16 @@
 			"Name": "LyraUnitSelection",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/cff80acc-8682-47ae-beab-09e433496648"
+		},
+		{
+			"Name": "AGR_Plugin",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/3648e75cbc444e3e9f1a370074515c9d"
+		},
+		{
+			"Name": "MeleeTrace",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/42b0bb860bcd4995b70d40f152a6e9b9"
 		}
 	],
 	"EpicSampleNameHash": "451731683"
