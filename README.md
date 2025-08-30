@@ -109,6 +109,12 @@ File → Package Project → Windows
 
 ---
 
+## 🌐 Repo Communication Canister: 
+
+https://github.com/idarkstudio/UN-LOGIN-IC-IDS
+
+---
+
 ## 🧪 Testing
 - Local multiplayer (PIE with multiple windows)
 - HUD and state replication validation
