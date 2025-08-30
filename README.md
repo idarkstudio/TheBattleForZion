@@ -168,7 +168,7 @@ The **Reality of Madness (ROM) Universe** and **The Battle for Zhion (TBFZ)** ar
 
 ## 📊 Architecture Diagram
 
-![ROM Architecture](docs/rom_architecture.png)
+![ROM Architecture](docs/images/rom_architecture.png)
 
 > This diagram illustrates the **multi-chain, ICP-based architecture** of ROM Universe.  
 > The Battle for Zhion leverages this structure to deliver an **FPS/Battle Royale with true Web3 interoperability**.
