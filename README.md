@@ -2,6 +2,7 @@
 
 ![Banner de The Battle for Zhion](docs/images/banner_zhion.png)
 
+
 **The Battle for Zhion** is an **FPS / Battle Royale** that is part of the **Reality of Madness** game suite.  
 Developed by **Inside Dark Studio** using **Unreal Engine 5**, it is designed for PC (and future Web builds) with **Web3 interoperability through Chain Fusion**.
 
@@ -141,7 +142,40 @@ File → Package Project → Windows
 
 ---
 
+---
+
+## 🏗️ Architecture Overview
+
+The **Reality of Madness (ROM) Universe** and **The Battle for Zhion (TBFZ)** are built on a **robust multi-chain architecture**, combining the power of the **Internet Computer (ICP)** with **Chain Fusion interoperability**.
+
+### Key Components
+- **ICP as Core Database Layer**:  
+  ICP canisters store **user profiles, assets, inventory, and gameplay states**. This ensures decentralization, security, and persistence at scale.
+- **Chain Fusion Bridges**:  
+  Through our **FORGE protocol**, ROM enables NFTs and tokens to flow between ICP and external ecosystems like **Ethereum, Solana, Polygon, and BNB Chain**.
+- **Game Client Integration**:  
+  Games like **The Battle for Zhion** connect directly to the canister lobby for login, matchmaking, inventory, and asset management.
+- **Web2 Services**:  
+  Non-blockchain services (e.g., rendering, CDN, analytics) are managed via **scalable Docker clusters** integrated with the ROM ecosystem.
+
+### Features
+- **Unified Platform**: All ROM games share the same underlying infrastructure.  
+- **Direct Integration**: Seamless login, asset sync, and cross-chain support inside each game client.  
+- **Revenue Generation**: Marketplace and auction house fees feed back into the ecosystem.  
+- **Scalability**: Auto-scaling clusters for database, chat, auction, and matchmaking services.  
+
+---
+
+## 📊 Architecture Diagram
+
+![ROM Architecture](docs/rom_architecture.png)
+
+> This diagram illustrates the **multi-chain, ICP-based architecture** of ROM Universe.  
+> The Battle for Zhion leverages this structure to deliver an **FPS/Battle Royale with true Web3 interoperability**.
+
+
 ## 📄 License
 Property of **Inside Dark Studio**.  
 No commercial use or redistribution allowed without prior authorization.
+
 
