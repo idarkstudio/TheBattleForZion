@@ -2,141 +2,146 @@
 
 ![Banner de The Battle for Zhion](docs/images/banner_zhion.png)
 
-**The Battle for Zhion** es un **FPS / Battle Royale** que forma parte de la **suite de juegos de Reality of Madness**. Está siendo desarrollado por **Inside Dark Studio** con **Unreal Engine 5** y está pensado para ejecutarse en PC (y, a futuro, web) con integración Web3 en **Internet Computer (ICP)**.
+**The Battle for Zhion** is an **FPS / Battle Royale** that is part of the **Reality of Madness** game suite.  
+Developed by **Inside Dark Studio** using **Unreal Engine 5**, it is designed for PC (and future Web builds) with **Web3 interoperability through Chain Fusion**.
 
-- Sitio del estudio: https://insidedarkstudio.com
-- Sitio del universo ROM: https://realityofmadness.com
-- Docs ROM: https://docs.realityofmadness.com
+- Studio: https://insidedarkstudio.com
+- Universe site: https://realityofmadness.com
+- Docs: https://docs.realityofmadness.com
 - Discord: https://discord.gg/byYXnpyp
 
 ---
 
-## 🚀 Estado del proyecto
-- 🟢 MVP jugable (Deathmatch)
-- 🔧 HUD y UX en iteración
-- 🔗 Integración inicial con ICP (login/identidad y lectura de assets)
-- 🔜 Próximamente: **Battle Royale**, progresión, canje de NFTs y localización multilenguaje
+## 🚀 Project Status
+- 🟢 Playable MVP (Deathmatch)
+- 🔧 HUD and UX iteration
+- 🔗 Initial database & login bridge to ICP
+- 🔜 Upcoming: **Battle Royale mode**, progression systems, NFT inventory, and multilingual localization
 
 ---
 
-## 🎮 Características clave
-- Shooter en **primera persona** con base **Lyra** y gameplay modular
-- Modos previstos: **Deathmatch**, **Battle Royale** y **PvE de eventos**
-- Inventario y selección de **personajes favoritos**, persistencia de perfil
-- **HUD** para Frontend/Backend bridge (login, selección de personaje, estado de red)
-- Integración con canisters para **NFTs / Tokens** (lectura/escritura prevista)
-- Pipelines de **build** para Windows y exportables
+## 🎮 Core Features
+- First-person shooter based on **Lyra Starter Game** with modular gameplay extensions
+- Modes: **Deathmatch**, **Battle Royale**, and limited-time **PvE Events**
+- Inventory and **Favorite Character selection**, persistent profiles
+- **HUD** bridge for login, character, and chain-linked assets
+- **Chain Fusion** interoperability: ICP as the **main database**, with support for reading/writing assets across **Ethereum, Solana, Polygon, and others**
+- Pipelines for **Windows build** and cinematic exports
 
 ---
 
-## 🧱 Estructura de carpetas (UE5)
+## 🧱 Folder Structure (UE5)
 ```
-/Config/                         # Ajustes del proyecto y builds
-/Content/                        # Assets y mapas
-  /Characters/                   # Personajes (mallas, animaciones, data assets)
-  /Environments/                 # Escenarios (SkyTown, CyberPunkKyiv, Village, Cave_Ruins, etc.)
-  /Weapons/                      # Armas (rifles, melee, VFX, sonidos)
-  /UI/                           # Widgets, HUD, fuentes e iconos
-  /VFX/                          # Paquetes de efectos (BlinkAndDashVFX, Realistic_Starter_VFX_Pack_Vol2, etc.)
-  /IDS_ASSETS/                   # Recursos propios del estudio
-  /Sequences/                    # Secuencias y renders
-  /Audio/                        # Sonidos y música
-  /Feedback/                     # Notificaciones y mensajes de gameplay
-  /Heart/                        # Core del proyecto (mapas y protos principales)
-/Plugins/                        # Plugins del proyecto
-/Source/                         # Código C++ (si aplica)
-/docs/                           # Documentación y material de comunicación
-TheBattleForZion.uproject        # Proyecto UE5
+/Config/                         # Project settings & builds
+/Content/                        # Assets & maps
+  /Characters/                   # Meshes, animations, data assets
+  /Environments/                 # Maps: SkyTown, CyberPunkKyiv, Village, Cave_Ruins, etc.
+  /Weapons/                      # Firearms, melee, VFX, sounds
+  /UI/                           # HUD, widgets, fonts & icons
+  /VFX/                          # FX packs (BlinkAndDashVFX, Realistic_Starter_VFX_Pack, etc.)
+  /IDS_ASSETS/                   # Proprietary Inside Dark Studio assets
+  /Sequences/                    # Sequencer animations & renders
+  /Audio/                        # SFX & music
+  /Feedback/                     # Gameplay notifications/messages
+  /Heart/                        # Core maps and prototypes
+/Plugins/                        # Required plugins
+/Source/                         # C++ code (if used)
+/docs/                           # Documentation & guides
+TheBattleForZion.uproject        # Main UE5 project
 ```
-> Nota: La lista resume y normaliza nombres vistos en el repo para que cualquier colaborador identifique los paquetes más importantes.
 
 ---
 
-## 🔌 Plugins y paquetes usados (activar/instalar)
-**Plugins UE (Lyra & Modular Gameplay)**
+## 🔌 Plugins & Marketplace Content
+**Required UE Plugins**
 - `AsyncMixin`, `CommonGame`, `CommonLoadingScreen`, `CommonUser`
 - `GameFeatures`, `GameSettings`, `GameSubtitles`
 - `GameplayMessageRouter`, `ModularGameplayActors`
 - `LyraExampleContent`, `LyraExtTool`, `PocketWorlds`
 - `UIExtension`
 
-**Packs/Assets de Marketplace (contenido)**
-- `UltraDynamicSky` (cielo / clima)
-- `BlinkAndDashVFX`, `ContextEffects`, `GameplayCueNotifies`
-- `Realistic_Starter_VFX_Pack_Vol2`, `MegaMagicVFXBundle`
-- Escenarios/props: `CyberPunkKyiv`, `Sci_Fi_Valley_Village`, `Cave_Ruins`, `BrutalistLevelKit`, `Village`, `SoulCave`
+**Marketplace Packs**
+- Sky/Environment: `UltraDynamicSky`, `Village`, `SoulCave`, `CyberPunkKyiv`, `Sci_Fi_Valley_Village`, `Cave_Ruins`, `BrutalistLevelKit`
+- VFX: `BlinkAndDashVFX`, `ContextEffects`, `GameplayCueNotifies`, `Realistic_Starter_VFX_Pack_Vol2`, `MegaMagicVFXBundle`
+- Animations: `Samurai_Animation`, `Sword_Animation`
+- Props: `Horror_Props`, `Statue`, `WoodMaterialPack`
 
-> Si algún paquete no está disponible en tu máquina, puedes reemplazarlo por placeholders estándar de UE5 para desarrollo.
-
----
-
-## 🧰 Requisitos y stack
-- **Motor:** Unreal Engine **5.3+** (desarrollado y probado en 5.6 en el estudio)
-- **Lenguajes:** C++ + **Blueprints**
-- **Netcode:** Replicación nativa UE + lógica de emparejamiento/estados propia
-- **Web3:** Canisters en ICP (login, perfiles, inventario)
-- **CI/CD:** Scripts de empaquetado y MoviePipeline para renders (si aplica)
+> If any package is missing, use UE placeholders to compile and test.
 
 ---
 
-## ⚙️ Cómo compilar y ejecutar
-1) Clona el repositorio
+## 🧰 Requirements & Stack
+- **Engine:** Unreal Engine **5.3+** (developed/tested on 5.6)
+- **Languages:** Blueprints + C++ (for network/bridge logic)
+- **Networking:** UE native replication + custom matchmaking state logic
+- **Web3/Chain Fusion:** ICP as persistent database, with **cross-chain fusion** to interact with other chains (EVM & non-EVM)
+- **CI/CD:** Build pipelines & MoviePipeline for renders
+
+---
+
+## ⚙️ How to Build & Run
+1. Clone the repository:
 ```bash
 git clone <REPO_URL>
 ```
-2) Abre `TheBattleForZion.uproject` con UE5 (5.6 recomendado).
-3) Si usas C++: genera archivos y compila (Windows)
+2. Open `TheBattleForZion.uproject` in UE5 (5.6 recommended).
+3. If using C++:
 ```bash
 ./GenerateProjectFiles.bat
 ./Build.bat
 ```
-4) Ejecuta en el editor (**PIE**) o empaqueta: **File → Package Project → Windows**.
+4. Run in editor (PIE) or package:
+```
+File → Package Project → Windows
+```
 
 ---
 
-## 🌐 Integración ICP (resumen)
-- **Login/Identidad:** bridge hacia canisters para autenticar al jugador
-- **Perfiles y favoritos:** lectura/escritura de `CharactersData` y estado de perfil
-- **Assets Web3:** lectura de **NFTs/Tokens** del jugador (interoperabilidad planificada)
-- **Pruebas locales:** `dfx start` + mocks de identidad durante desarrollo
+## 🌐 Chain Fusion (Web3 Integration)
+- **ICP (Internet Computer):** used as the **core decentralized database**
+- **Cross-chain interoperability:** Bridge to **Ethereum, Solana, Polygon, Bitcoin, and more**
+- **Profiles & Favorites:** Player data and persistence stored on ICP, synced with in-game assets
+- **NFTs & Tokens:** Reading/writing across multiple chains through **Chain Fusion APIs**
+- **Local Dev:** `dfx start` for ICP + testnets for external chains
 
-> La integración completa se documenta en `docs/icp_integration.md` (WIP).
+> This architecture makes TBFZ a **truly interoperable Web3 FPS**, not bound to a single blockchain.
 
 ---
 
 ## 🧪 Testing
-- **Multiplayer local (PIE)** con varias ventanas/instancias
-- Validación de HUD y estados de red
-- QA rápido de animaciones/combate (melee & firearms)
-- Pruebas Web3 en entorno local (mock) y staging (cuando esté disponible)
+- Local multiplayer (PIE with multiple windows)
+- HUD and state replication validation
+- QA for combat animations (melee + firearms)
+- Cross-chain inventory simulation (mock ICP + EVM testnets)
 
 ---
 
-## 👥 Equipo
-- **Mariano Stoll** — Director General
+## 👥 Core Team
+- **Mariano Stoll** — General Director
 - **Francisco Rappazzini** — CTO
 - **Francisca Nicole Morales Calquín** — COO
 - **Lautaro Padró** — Game Designer
-- **Lucía Mamut** — Game Art
+- **Lucía Mamut** — Game Artist
 
 ---
 
 ## 🗺️ Roadmap (Q3–Q4 2025)
-- Optimización de **netcode** para 60+ jugadores
-- Modo **Battle Royale** (zonas, círculos, respawn y loot)
-- Canje/uso de **NFTs** en inventario (cosméticos y pases)
-- Localización: **ES / EN / PT**
-- Mejoras de animaciones y blending
+- Optimize netcode for 60+ players
+- Release **Battle Royale** mode (circle mechanics, respawn, loot system)
+- Enable **NFT redemption & cosmetics** through Chain Fusion
+- Localization in **English, Spanish, Portuguese**
+- Animation and blending improvements
 
 ---
 
-## 📫 Canales de comunicación
-- **Issues** y tareas: tablero del repo (GitHub Projects)
-- **Soporte técnico:** canal de #dev-support en **Discord**
-- **Prensa/negocios:** contacto vía web
+## 📫 Communication Channels
+- **Issues & Tasks:** GitHub Projects board
+- **Developer Support:** #dev-support channel in **Discord**
+- **Press/Business:** via studio websites
 
 ---
 
-## 📄 Licencia
-Proyecto propiedad de **Inside Dark Studio**.  
-Prohibida su distribución o uso comercial sin autorización expresa.
+## 📄 License
+Property of **Inside Dark Studio**.  
+No commercial use or redistribution allowed without prior authorization.
+
