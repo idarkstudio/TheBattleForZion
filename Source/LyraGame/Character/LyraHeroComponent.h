@@ -42,6 +42,7 @@ public:
 	static ULyraHeroComponent* FindHeroComponent(const AActor* Actor) { return (Actor ? Actor->FindComponentByClass<ULyraHeroComponent>() : nullptr); }
 
 	/** Overrides the camera from an active gameplay ability */
+	UFUNCTION(BlueprintCallable, Category = "Lyra|Hero")
 	UE_API void SetAbilityCameraMode(TSubclassOf<ULyraCameraMode> CameraMode, const FGameplayAbilitySpecHandle& OwningSpecHandle);
 
 	/** Clears the camera override if it is set */
